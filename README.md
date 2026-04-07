@@ -4,6 +4,8 @@ CLI tool to easily take screenshots and ask Claude Code or other AI about them.
 
 macOS only. Uses `screencapture` to capture windows or the full screen, and provides Claude Code skills for quick visual Q&A.
 
+https://github.com/urahiroshi/sc/raw/main/sc_en.mov
+
 ## Installation
 
 ```bash
