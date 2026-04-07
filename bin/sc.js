@@ -13,6 +13,11 @@ switch (command) {
     capture();
     break;
   }
+  case "full-capture": {
+    const { fullCapture } = await import("../lib/full-capture.js");
+    fullCapture();
+    break;
+  }
   case "latest": {
     const { latest } = await import("../lib/latest.js");
     latest();
@@ -20,8 +25,9 @@ switch (command) {
   }
   default:
     console.log(`Usage:
-  sc select   - Select and save the target window
-  sc capture  - Take a screenshot
-  sc latest   - Show the path of the latest screenshot`);
+  sc select        - Select and save the target window
+  sc capture       - Take a screenshot of the target window
+  sc full-capture  - Take a screenshot of the entire screen
+  sc latest        - Show the path of the latest screenshot`);
     break;
 }
