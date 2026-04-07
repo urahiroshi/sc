@@ -12,9 +12,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "@inquirer/prompts": "^8.4.0",
-    "node-window-manager": "^2.2.4"
+    "get-windows": "^9.3.0"
   }
 }
