@@ -1,18 +1,29 @@
 {
-  "name": "sc",
+  "name": "sc-commands",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "CLI tool to easily take screenshots and ask Claude Code or other AI about them",
   "bin": {
     "sc": "./bin/sc.js"
   },
+  "files": [
+    "bin",
+    "lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "screenshot",
+    "cli",
+    "claude-code",
+    "macos"
+  ],
+  "author": "Hiroshi Urayama",
+  "license": "MIT",
   "type": "module",
+  "os": [
+    "darwin"
+  ],
   "dependencies": {
     "@inquirer/prompts": "^8.4.0",
     "get-windows": "^9.3.0"
