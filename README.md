@@ -1,4 +1,4 @@
-# sc
+# sc-commands
 
 CLI tool to easily take screenshots and ask Claude Code or other AI about them.
 
@@ -7,7 +7,7 @@ macOS only. Uses `screencapture` to capture windows or the full screen, and prov
 ## Installation
 
 ```bash
-npm install -g .
+npm install -g sc-commands
 ```
 
 ## CLI Commands
