@@ -79,10 +79,17 @@ Captures the full screen and asks Claude Code about it.
 
 ## Configuration
 
-All data is stored in `~/.config/sc/`:
+All settings are stored in `~/.config/sc/sc.json`.
 
-- `window.json` — Selected target window info
-- `screenshots/` — Captured screenshot images
+```json
+{
+  "window": { "id": 567, "app": "Firefox", "title": "GitHub" },
+  "screenshotsDir": "/path/to/custom/dir"
+}
+```
+
+- `window` — Target window info (set automatically by `sc select`)
+- `screenshotsDir` — Custom screenshot save directory (default: `~/.config/sc/screenshots/`)
 
 ## License
 

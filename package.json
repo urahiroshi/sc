@@ -1,9 +1,9 @@
 {
   "name": "sc-commands",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "CLI tool to easily take screenshots and ask Claude Code or other AI about them",
   "bin": {
-    "sc": "./bin/sc.js"
+    "sc": "bin/sc.js"
   },
   "files": [
     "bin",
