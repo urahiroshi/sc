@@ -19,9 +19,9 @@ switch (command) {
     break;
   }
   default:
-    console.log(`使い方:
-  sc select   - 対象ウィンドウを選択・保存
-  sc capture  - スクリーンショットを取得
-  sc latest   - 直近のスクリーンショットのパスを表示`);
+    console.log(`Usage:
+  sc select   - Select and save the target window
+  sc capture  - Take a screenshot
+  sc latest   - Show the path of the latest screenshot`);
     break;
 }
